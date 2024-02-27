@@ -22,18 +22,7 @@ class StudyApplicationTests {
 
 
 		//WebClinet 2가지 생성방식
-		/**
-		 * 1) create()
-		 *
-		 *
-		 *
-		 *
-		 * 2) option build()
-		 *
-		 */
-		//give
-
-
+		//1번 일단 해당 내용은 외부 URL 호출하는 방식은  TEST에서 진행하면 ....불가능 ?
 		System.out.println("Spring Junit TEST START");
 		webClientService.get();
 		System.out.println("Spring Junit TEST END");

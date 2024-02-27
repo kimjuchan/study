@@ -37,6 +37,11 @@ dependencies {
 	//test 진행 시 H2 사용
 	implementation 'com.h2database:h2'
 
+	//XML TO JSON 형변환 시 사용. (vesion은 따로 이유 없고 최신화로 맞춤)
+	// https://mvnrepository.com/artifact/org.json/json
+	implementation group: 'org.json', name: 'json', version: '20240205'
+
+
 	//webflux (open API 요청 시 사용됨.)
 	//Spring 5.0 , Spring Boot 2.0 이상 버전 필요.
 	//기존에는 RestTemplate 권장 WebClinet  등장 이후  해당 권장으로 변경.
